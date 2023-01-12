@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".search_bus_and_view_time">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="route" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="search" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=" bus name" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="time" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="stop" />
+
+    </TableRow>
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dh"
+    tools:context=".home_page_driver">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#121E1C"
+            android:text="view assignned work" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#121E1C"
+            android:text="update status" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#121E1C"
+            android:text="send complaint" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#121E1C"
+            android:text="view feedback" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#121E1C"
+            android:text="logout" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+</LinearLayout>

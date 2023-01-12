@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view_booking_details">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="booking id" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="bus name" />
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:text="time" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/lst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.buswithoutconductor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rrr"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/rrr"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BUSWITHOUTCONDUCTOR"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".view_qr_code"
+            android:exported="false" />
+        <activity
+            android:name=".custom4"
+            android:exported="false" />
+        <activity
+            android:name=".view_booking_details"
+            android:exported="false" />
+        <activity
+            android:name=".direct_booking"
+            android:exported="false" />
+        <activity
+            android:name=".required_seat"
+            android:exported="false" />
+        <activity
+            android:name=".custom3"
+            android:exported="false" />
+        <activity
+            android:name=".custom2"
+            android:exported="false" />
+        <activity
+            android:name=".home_page_driver"
+            android:exported="false" />
+        <activity
+            android:name=".home_page_user1"
+            android:exported="false" />
+        <activity
+            android:name=".book_bus"
+            android:exported="false" />
+        <activity
+            android:name=".payment"
+            android:exported="false" />
+        <activity
+            android:name=".view_bus_status"
+            android:exported="false" />
+        <activity
+            android:name=".send_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".view_complaint_and_reply"
+            android:exported="false" />
+        <activity
+            android:name=".view_time"
+            android:exported="false" />
+        <activity
+            android:name=".view_bus_location"
+            android:exported="false" />
+        <activity
+            android:name=".search_bus_and_view_time"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".update_status"
+            android:exported="false" />
+        <activity
+            android:name=".view_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".send_complaint"
+            android:exported="false" />
+        <activity
+            android:name=".view_assigned_work"
+            android:exported="false" />
+        <activity
+            android:name=".LOGIN"
+            android:exported="false" />
+<!--        <services android:name=".LocationService "/>-->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
